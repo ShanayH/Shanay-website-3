@@ -6,7 +6,7 @@
 
 body {
   margin: 60px auto;
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 h1,
@@ -100,4 +100,56 @@ p {
 .btn-primary:hover {
   color: blue;
   background-color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  body {
+    max-width: 95%;
+    margin-top: 75px;
+  }
+
+  h4 {
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .container div {
+    padding: 5px;
+  }
+
+  .woman-yoga {
+    display: none;
+  }
+
+  .weather-app-image {
+    display: none;
+  }
+
+  .yogurt-img {
+    display: none;
+  }
+
+  .btn-primary {
+    padding: 10px;
+  }
+
+  .about-me-subheading {
+    font-size: 20px;
+  }
+
+  .about-page-imgs {
+    margin: 5px;
+  }
+
+  .contact-info {
+    font-size: 30px;
+  }
+
+  .email-link {
+    font-size: 25px;
+  }
 }
